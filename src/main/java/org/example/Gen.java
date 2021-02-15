@@ -22,8 +22,8 @@ public class Gen extends Application {
         ArrayList<Integer> cards = getCards();
 
 // Create a HBox pane
-        HBox pane = new HBox(0.1);
-        pane.setPadding(new Insets(2, 2, 2, 2));
+        HBox pane = new HBox(5);
+        pane.setPadding(new Insets(5, 5, 5, 5));
 
 // Add nodes to pane
         for (int i = 0; i < 3; i++)
